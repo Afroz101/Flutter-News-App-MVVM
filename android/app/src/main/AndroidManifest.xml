@@ -1,7 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nev.nev_news_with_mvvm">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
         android:label="nev_news_with_mvvm"
+       android:defaultFocusHighlightEnabled="false"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
